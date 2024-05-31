@@ -1,0 +1,41 @@
+.articulo-form {
+    margin-bottom: 20px;
+  }
+  
+  .articulo-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .articulo-table th, .articulo-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .articulo-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .articulo-form {
+    margin-bottom: 16px; /* Reducido de 20px */
+  }
+  
+  .articulo-form input {
+    margin-bottom: 8px; /* Reducido de 10px */
+    padding: 6px; /* Reducido de 8px */
+    width: 80%; /* Ajustado al 80% del ancho original */
+  }
+  
+  .articulo-form button {
+    padding: 8px 16px; /* Reducido de 10px 20px */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .articulo-form button:hover {
+    background-color: #0056b3;
+  }
+  
